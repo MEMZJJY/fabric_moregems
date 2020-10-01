@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "moregems",
+  "version": "${version}",
+
+  "name": "More Gems Mod",
+  "description": "阿巴阿巴",
+  "authors": [
+    "MEMZJJY"
+  ],
+  "contact": {
+    "homepage": "https://memzjjy.github.io",
+    "sources": "https://github.com/MEMZJJY/fabric_moregems"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/moregems/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.memzjjy.moregems.MoregemsMod"
+    ]
+  },
+  "mixins": [
+    "moregems.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.14.4"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
