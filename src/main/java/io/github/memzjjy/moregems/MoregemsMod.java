@@ -9,6 +9,6 @@ public class MoregemsMod implements ModInitializer {
         // However, some things (like resources) may still be uninitialized.
         // Proceed with mild caution.
 
-        System.out.println("Hello Fabric world!");
+        System.out.println("Load moregems main class");
     }
 }
