@@ -7,7 +7,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class MoregemsMod implements ModInitializer {
-    public static final Item BLUE_GEM = new Item(new Item.Settings().group(ItemGroup.MISC)); //创建蓝宝石物品石粒(doge)
+    public static final Item BLUE_GEM = new Item(new Item.Settings().group(ItemGroup.MISC)); //创建没屁用的蓝宝石物品石粒(doge)
     @Override
     public void onInitialize() {
         Registry.register(Registry.ITEM, new Identifier("moregems", "blue_gem"), BLUE_GEM);//注册物品
@@ -16,5 +16,16 @@ public class MoregemsMod implements ModInitializer {
         // Proceed with mild caution.
 
         System.out.println("Load moregems main class");
+        System.out.println("这是一个恶臭的mod");
+        System.out.println("       　  　\n▃▆█▇▄▖\n" +
+                           "　 　 　 ▟◤▖　　　◥█▎\n" +
+                           "   　 ◢◤　 ▐　　　 　▐▉\n" +
+                           "　 ▗◤　　　▂　▗▖　　▕█▎\n" +
+                           "　◤　▗▅▖◥▄　▀◣　　█▊\n" +
+                           "▐　▕▎◥▖◣◤　　　　◢██\n" +
+                           "█◣　◥▅█▀　　　　▐██◤\n" +
+                           "▐█▙▂　　     　◢██◤\n" +
+                           "◥██◣　　　　◢▄◤\n" +
+                           " 　　▀██▅▇▀");
     }
 }
