@@ -1,6 +1,7 @@
 English  
 [中文](https://github.com/MEMZJJY/fabric_moregems/blob/master/doc/README_cn.md)
-#Installation
+Installation
+=================
 
 1. Download minecraft 1.14.4
 
@@ -12,8 +13,8 @@ English
 
 5. Move to the. Minecraft / mods folder
 
-#Contribution
-
+Contribution
+=================
 1. Git clone
 
 2. Import IntelliJ idea
@@ -22,6 +23,6 @@ English
 
 
 
-#Contribution list
-
+Contribution list
+=================
 MEMZJJY
