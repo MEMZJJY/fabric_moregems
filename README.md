@@ -1,5 +1,5 @@
 English  
-[中文](https://github.com/MEMZJJY/fabric_moregems/blob/master/doc/README_cn.md)
+[中文](https://github.com/MEMZJJY/fabric_moregems/blob/master/doc/README_cn.md)  
 Installation
 =================
 
